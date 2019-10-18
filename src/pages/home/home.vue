@@ -41,9 +41,11 @@ export default {
             "https://img-oss.yunshanmeicai.com/goods/default/e83c8f0f-4acc-4729-bcbb-294f2b314977.jpg"
         }
       ],
-       gomove() {
-         console.log(123456)
-       }
+      gomove(){
+        wx.redirectTo({
+          url: '../move/main'
+        })
+      }
     };
   },
   methods: {

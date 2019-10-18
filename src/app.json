@@ -1,6 +1,10 @@
 {
   "pages": [
+    "pages/enroll/main",
     "pages/home/main",
+    "pages/pag/main",
+    "pages/activity/main",
+    "pages/move/main",
     "pages/index/main",
     "pages/logs/main" 
    ],
@@ -18,24 +22,34 @@
 
     "list": [{
       "text": "首页",
-      "pagePath": "pages/index/main",
+      "pagePath": "pages/home/main",
       "iconPath": "static/tabs/home.png",
       "selectedIconPath": "static/tabs/home-active.png"
     }, {
-      "text": "订单",
-      "pagePath": "pages/logs/main",
+      "text": "排行榜",
+      "pagePath": "pages/move/main",
+      "iconPath": "static/tabs/orders.png",
+      "selectedIconPath": "static/tabs/orders-active.png"
+    }, {
+      "text": "说明",
+      "pagePath": "pages/activity/main",
       "iconPath": "static/tabs/orders.png",
       "selectedIconPath": "static/tabs/orders-active.png"
     }],
 
     "items": [{
       "name": "首页",
-      "pagePath": "pages/index/main",
+      "pagePath": "pages/home/main",
       "icon": "static/tabs/home.png",
       "activeIcon": "static/tabs/home-active.png"
     }, {
-      "name": "订单",
-      "pagePath": "pages/logs/main",
+      "name": "排行榜",
+      "pagePath": "pages/move/main",
+      "icon": "static/tabs/orders.png",
+      "activeIcon": "static/tabs/orders-active.png"
+    }, {
+      "name": "说明",
+      "pagePath": "pages/activity/main",
       "icon": "static/tabs/orders.png",
       "activeIcon": "static/tabs/orders-active.png"
     }],
